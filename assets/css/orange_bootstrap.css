@@ -4836,14 +4836,14 @@ footer.footer {
 
 .explain a {color:#000000}
 
-.Tracker 
+.Tracker
 {
 	/* background-color:#a5a5a5; */
 	/*border:1px solid #a5a5a5;
 	padding:10px;*/
 }
 
-.TrackerHours 
+.TrackerHours
 {
 	border:1px solid #a5a5a5;
 	background-color:#f2f2f2;
@@ -4851,7 +4851,7 @@ footer.footer {
 	font-size:85%;
 }
 
-.TrackerValues 
+.TrackerValues
 {
 	text-align:center;
 	font-size:80%;
