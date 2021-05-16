@@ -2094,7 +2094,7 @@ button.close {
   /* IE7 inline-block hack */
 
   *zoom: 1;
-  padding: 4px 10px 4px;
+  padding: 4px 10px;
   margin-bottom: 0;
   font-size: 13px;
   line-height: 18px;
@@ -2905,7 +2905,7 @@ input[type="submit"].btn.btn-mini {
 }
 .tabs-below > .nav-tabs > .active > a,
 .tabs-below > .nav-tabs > .active > a:hover {
-  border-color: transparent #ddd #ddd #ddd;
+  border-color: transparent #ddd #ddd;
 }
 .tabs-left > .nav-tabs > li,
 .tabs-right > .nav-tabs > li {
@@ -3149,7 +3149,7 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar .btn {
   display: inline-block;
-  padding: 4px 10px 4px;
+  padding: 4px 10px;
   margin: 5px 5px 6px;
   line-height: 18px;
 }
@@ -4288,7 +4288,7 @@ body {
 }
 .dropdown-menu .divider {
   background-color: #222;
-  border-bottom: 0px solid white;
+  border-bottom: 0 solid white;
 }
 div.subnav {
   position: static;
@@ -4659,7 +4659,7 @@ select {
 legend,
 label {
   color: #999999;
-  border-bottom: 0px solid #222;
+  border-bottom: 0 solid #222;
 }
 input,
 textarea,
@@ -4832,7 +4832,7 @@ footer.footer {
 }
 
 /*CUSTOM ADDITIONS*/
-.explain { color:#000000; text-align:center; line-height:30px; background-color:#BE231E; border:1px solid #000000; margin:5px 0 5px 0; font-size:75%; font-weight: bold;}
+.explain { color:#000000; text-align:center; line-height:30px; background-color:#BE231E; border:1px solid #000000; margin:5px 0; font-size:75%; font-weight: bold;}
 
 .explain a {color:#000000}
 
