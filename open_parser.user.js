@@ -12,7 +12,7 @@
 (function(){
 
 	//VERSION INFO
-	var version = "1.0.8";
+	var version = "1.0.23";
 	
 	//SET UPLOAD PATH BASED ON GAME!
 	var servers = {
@@ -63,6 +63,60 @@
 		"conquest2.playstarfleet.com":"conquest2.siteurl.com",
 		"fb.conquest2.playstarfleet.com":"conquest2.siteurl.com",
 		"ssl.fb.conquest2.playstarfleet.com":"conquest2.siteurl.com",
+		"uni4.playstarfleet.com":"uni4.siteurl.com",
+		"fb.uni4.playstarfleet.com":"uni4.siteurl.com",
+		"ssl.fb.uni4.playstarfleet.com":"uni4.siteurl.com",
+		"nova2.playstarfleet.com":"nova2.siteurl.com",
+		"fb.nova2.playstarfleet.com":"nova2.siteurl.com",
+		"ssl.fb.nova2.playstarfleet.com":"nova2.siteurl.com",
+		"x3.playstarfleet.com":"x3.siteurl.com",
+		"fb.x3.playstarfleet.com":"x3.siteurl.com",
+		"ssl.fb.x3.playstarfleet.com":"x3.siteurl.com",
+		"conquest3.playstarfleet.com":"conquest3.siteurl.com",
+		"fb.conquest3.playstarfleet.com":"conquest3.siteurl.com",
+		"ssl.fb.conquest3.playstarfleet.com":"conquest3.siteurl.com",
+		"nova3.playstarfleet.com":"nova3.siteurl.com",
+		"fb.nova3.playstarfleet.com":"nova3.siteurl.com",
+		"ssl.fb.nova3.playstarfleet.com":"nova3.siteurl.com",
+		"x4.playstarfleet.com":"x4.siteurl.com",
+		"fb.x4.playstarfleet.com":"x4.siteurl.com",
+		"ssl.fb.x4.playstarfleet.com":"x4.siteurl.com",
+		"uni5.playstarfleet.com":"uni5.siteurl.com",
+		"fb.uni5.playstarfleet.com":"uni5.siteurl.com",
+		"ssl.fb.uni5.playstarfleet.com":"uni5.siteurl.com",
+		"nova4.playstarfleet.com":"nova4.siteurl.com",
+		"fb.nova4.playstarfleet.com":"nova4.siteurl.com",
+		"ssl.fb.nova4.playstarfleet.com":"nova4.siteurl.com",
+		"x5.playstarfleet.com":"x5.siteurl.com",
+		"fb.x5.playstarfleet.com":"x5.siteurl.com",
+		"ssl.fb.x5.playstarfleet.com":"x5.siteurl.com",
+		"uni6.playstarfleet.com":"uni6.siteurl.com",
+		"fb.uni6.playstarfleet.com":"uni6.siteurl.com",
+		"ssl.fb.uni6.playstarfleet.com":"uni6.siteurl.com",
+		"nova5.playstarfleet.com":"nova5.siteurl.com",
+		"fb.nova5.playstarfleet.com":"nova5.siteurl.com",
+		"ssl.fb.nova5.playstarfleet.com":"nova5.siteurl.com",
+		"x6.playstarfleet.com":"x6.siteurl.com",
+		"fb.x6.playstarfleet.com":"x6.siteurl.com",
+		"ssl.fb.x6.playstarfleet.com":"x6.siteurl.com",
+		"uni7.playstarfleet.com":"uni7.siteurl.com",
+		"fb.uni7.playstarfleet.com":"uni7.siteurl.com",
+		"ssl.fb.uni7.playstarfleet.com":"uni7.siteurl.com",
+		"x7.playstarfleet.com":"x7.siteurl.com",
+		"fb.x7.playstarfleet.com":"x7.siteurl.com",
+		"ssl.fb.x7.playstarfleet.com":"x7.siteurl.com"
+		"uni8.playstarfleet.com":"uni8.siteurl.com",
+		"fb.uni8.playstarfleet.com":"uni8.siteurl.com",
+		"ssl.fb.uni8.playstarfleet.com":"uni8.siteurl.com",
+		"x8.playstarfleet.com":"x8.siteurl.com",
+		"fb.x8.playstarfleet.com":"x8.siteurl.com",
+		"ssl.fb.x8.playstarfleet.com":"x8.siteurl.com"
+		"nova6.playstarfleet.com":"nova6.siteurl.com",
+		"fb.nova6.playstarfleet.com":"nova6.siteurl.com",
+		"ssl.fb.nova6.playstarfleet.com":"nova6.siteurl.com",
+		"nova7.playstarfleet.com":"nova7.siteurl.com",
+		"fb.nova7.playstarfleet.com":"nova7.siteurl.com",
+		"ssl.fb.nova7.playstarfleet.com":"nova7.siteurl.com",
 	};
 	var domain = servers[window.location.hostname];
 	if(!domain)return;
